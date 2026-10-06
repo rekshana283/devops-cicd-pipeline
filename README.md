@@ -82,26 +82,6 @@ If deployment fails, the previous known-good Docker image can be restored using 
 
 The rollback script also returns an error when the previous image is unavailable, preventing an invalid rollback from being treated as successful.
 
-## Project Structure
-
-devops-cicd-pipeline/
-│
-├── app/
-│   └── app.py
-│
-├── tests/
-│   └── test_app.py
-│
-├── scripts/
-│   └── rollback.sh
-│
-├── .github/
-│   └── workflows/
-│       └── cicd.yml
-│
-├── Dockerfile
-└── README.md
-
 ## Result
 
 The completed pipeline successfully performs:
