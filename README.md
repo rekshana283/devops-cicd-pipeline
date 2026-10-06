@@ -84,7 +84,6 @@ The rollback script also returns an error when the previous image is unavailable
 
 ## Project Structure
 
-```text
 devops-cicd-pipeline/
 │
 ├── app/
